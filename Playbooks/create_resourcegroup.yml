@@ -2,6 +2,6 @@
 - name: Create resource group
   delegate_to: 	localhost
   azure_rm_resourcegroup:
-    name: "{{ lab_name }}-{{ rg_name }}"
+    name: "{{ resourcegroup_name }}"
     location: "{{ location}}"
     tags: {{ tag }}
